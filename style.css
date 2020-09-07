@@ -1,9 +1,22 @@
 body {
-  background-color: rgb(23, 23, 23);
+  background-color: rgb(35, 44, 61);
 }
 h1 {
-  color:rgb(48, 48, 48);
+  color: rgb(255, 255, 255);
+}
+h2 {
+  color: rgb(255, 255, 255);
 }
 p {
   color: red;
+}
+
+.absolute {
+  position: absolute;
+  top: 0px;
+  right: 0;
+  width: 100%;
+  height: 100px;
+  background-color: #73AD21;
+  z-index: -1;
 }
