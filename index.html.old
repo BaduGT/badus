@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<!-- Setting -->
+<link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href='https://fonts.googleapis.com/css?family=Noto Sans JP' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=News Cycle' rel='stylesheet'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Main Code -->
+  <head>
+    <title>baduserrr.github.io</title>
+  </head>
+  <body>
+    <div class="taskbar">
+      <div class="startbtn">
+        <button class="startbtn"><i class="fa fa-windows"></i></button>
+        <div class="startmenu-content">
+          <a href="#"><i class="fa fa-windows"></i> About</a>
+          <a href="#"><i class="fa fa-windows"></i> Link 2</a>
+          <a href="#"><i class="fa fa-windows"></i> Link 3</a>
+          <a href="#"><i class="fa fa-windows"></i> Link 4</a>
+          <a href="#"><i class="fa fa-windows"></i> Link 5</a>
+        </div>
+      </div>
+      <div class="icon">
+        <button title="Internet access" class="icon"><i class="fa fa-wifi"></i></button>
+      </div>
+    </div>
+  </body>
+</html>
