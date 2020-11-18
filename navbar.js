@@ -11,6 +11,7 @@ document.write(`
         <a class="nav-link" href="kirigami.html">切り紙</a>
         <a class="nav-link" href="papercraft.html">ペーパークラフト</a>
         <a class="nav-link" href="cardboard.html">段ボール</a>
+        <a class="nav-link" href="/ResourceCalculator/ResourceCalculator.html">ResourceCalculator</a>
       </div>
     </div>
   </header>
