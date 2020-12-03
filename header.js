@@ -5,24 +5,17 @@ document.write(`
         <a class="navbar-brand pl-2 pt-0 pr-0" href="index.html">
           <img src="imgs/Logo.png" width="40" height="40" class="d-inline-block align-top" alt="" loading="lazy">
         </a>
+        <button class="navbar-toggler m-1" type="button" data-toggle="collapse" data-target="#Navbar" aria-controls="Navbar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
         <div class="collapse navbar-collapse" id="Navbar">
-        <ul class="navbar-nav">
-          <li class="nav-item index">
-            <a class="nav-link" href="index.html">ホーム <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item origami">
+          <div class="navbar-nav">
+            <a class="nav-link index" href="index.html">ホーム <span class="sr-only">(current)</span></a>
             <a class="nav-link origami" href="origami.html">折り紙</a>
-          </li>
-          <li class="nav-item kirigami">
             <a class="nav-link kirigami" href="kirigami.html">切り紙</a>
-          </li>
-          <li class="nav-item papercraft">
             <a class="nav-link papercraft" href="papercraft.html">ペーパークラフト</a>
-          </li>
-          <li class="nav-item cardboard">
             <a class="nav-link cardboard" href="cardboard.html">段ボール</a>
-          </li>
-        </ul>
+          </div>
         </div>
       </nav>
     </div>
