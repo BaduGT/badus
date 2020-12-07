@@ -22,10 +22,10 @@ document.write(`
   </div>
   <div class="row justify-content-center overlay-fix">
     <div class="col-8 shadow-xl p-0">
-      <img src="https://www.pinheadsinteractive.com/wp-content/uploads/2020/02/shutterstock_1179636829-1400x475.jpg" class="img-fluid cslsize" alt="Responsive image">
+      <img src="imgs/Imgs_0.png" class="img-fluid" alt="Responsive image">
     </div>
   </div>
   <div class="row">
-    <img src="https://www.pinheadsinteractive.com/wp-content/uploads/2020/02/shutterstock_1179636829-1400x475.jpg" class="img-fluid cslsize zindex-0" alt="Responsive image">
+    <img src="imgs/Imgs_1.png" class="img-fluid zindex-0" alt="Responsive image">
   </div>
 `);

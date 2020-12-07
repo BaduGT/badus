@@ -1,5 +1,5 @@
 document.write(`
-  <div class="text-light">
-    <h1 style="text-align:center;">Copyraight</h1>
+  <div class="text-light pt-2">
+    <h2 style="text-align:center;">足</h2>
   </div>
 `);
