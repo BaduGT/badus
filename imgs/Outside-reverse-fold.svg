@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" width="375" height="500" viewBox="0 0 375 500">
+<style type="text/css">
+	.st0{fill:none;stroke:#1B1464;stroke-width:3;stroke-linejoin:round;stroke-dasharray:3,5;}
+	.st1{fill:#F2F2F2;stroke:#000;stroke-width:3;stroke-linejoin:round;}
+	.st2{fill:#fff;stroke:#000;stroke-width:3;stroke-linejoin:round;}
+	.st3{fill:none;stroke:#1B1464;stroke-width:3;stroke-linecap:round;}
+	.st4{fill:#1B1464;}
+</style>
+<polygon class="st0" points="108.3,169 242.9,25.4 242.9,140.2"/>
+<polygon class="st1" points="39,275.4 22.4,295.3 239,486.3"/>
+<polygon class="st2" points="108.3,169 22.4,258.7 239,486.3 242.9,195.9"/>
+<polygon class="st1" points="242.9,209.4 339,214.5 242.9,195.9 "/>
+<polygon class="st2" points="108.3,169 242.9,140.2 339,214.5"/>
+<path class="st3" d="M259.6,25.4c61.3,44,84.5,109.6,89,164.4"/>
+<polygon class="st4" points="340.3,184.4 348.3,187.2 355.8,183.4 349.3,202.3"/>
+</svg>

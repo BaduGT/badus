@@ -13,17 +13,17 @@
     <div class="container-fluid">
       <script src="header.js"></script>
       <div class="row justify-content-center">
-        <div class="col-8 bg-over shadow-xl border border-light border-top-0 border-bottom-0 p-0">
+        <div class="col-md-8 bg-over shadow-xl border border-light border-top-0 border-bottom-0 p-0">
           <div class="row">
-            <div class="col-2 border-right">
+            <div class="col-3 col-xl-2 border-right">
               <script src="leftnavbar.js"></script>
             </div>
             <div class="col-9 pl-4 pt-3 pr-3">
-              <h1 class="text-center">技法</h1>
+              <h3 class="text-center"><b>技法</b></h3>
               <hr>
               <nav>
                 <div class="nav nav-tabs" id="tut-tab" role="tablist">
-                  <a class="nav-link active" id="nav-ori-tab" data-toggle="tab" href="#nav-ori" role="tab" aria-controls="nav-ori" aria-selected="true">折り方</a>
+                  <a class="nav-link active" id="nav-ori-tab" data-toggle="tab" href="#nav-ori" role="tab" aria-controls="nav-ori" aria-selected="true">折り紙</a>
                   <a class="nav-link" id="nav-kiri-tab" data-toggle="tab" href="#nav-kiri" role="tab" aria-controls="nav-kiri" aria-selected="false">切り紙テンプレートの作り方</a>
                   <a class="nav-link" id="nav-paper-tab" data-toggle="tab" href="#nav-paper" role="tab" aria-controls="nav-paper" aria-selected="false">ペーパークラフト・モデルの作り方</a>
                 </div>
@@ -31,50 +31,201 @@
               <div class="tab-content" id="tut-tabContent">
                 <div class="tab-pane fade show active" id="nav-ori" role="tabpanel" aria-labelledby="nav-ori-tab">
                   <div class="p-2">
-                    <h3>基本的な折り方</h3>
+                    <h4>基本的な折り方</h4>
                     <p>基本的な折り方として山折りと谷折りがある。山折りとは折り目の線が外側になるように折ることである、谷折りとは折り目の線が内側に隠れてしまうように折ることである。
                       また、これらの方法でいったん折って元に戻すと、折ったところに沿って線ができる。これを折り目または折り筋という。</p>
                     <p>谷折りと山折りを交互に繰り返すと蛇腹折りをすることができる。また、正方形の折り紙の四つの角を中心へ向けておることを特にざぶとん折りとよぶことがある。</p>
                     <figure class="figure text-center">
-                      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Origami_Valley-fold.svg/120px-Origami_Valley-fold.svg.png" class="figure-img img-fluid rounded" alt="谷折り">
+                      <img src="imgs/Origami_Valley-fold.svg" class="figure-img img-fluid rounded imgsf" alt="谷折り">
                       <figcaption class="figure-caption">谷折り</figcaption>
                     </figure>
                     <figure class="figure text-center">
-                      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Mountain-fold.svg/120px-Mountain-fold.svg.png" class="figure-img img-fluid rounded" alt="山折り">
+                      <img src="imgs/Mountain-fold.svg" class="figure-img img-fluid rounded imgsf" alt="山折り">
                       <figcaption class="figure-caption">山折り</figcaption>
                     </figure>
                     <figure class="figure text-center">
-                      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Accordion-fold.svg/120px-Accordion-fold.svg.png" class="figure-img img-fluid rounded" alt="蛇腹折り（アコーディオン折り）">
+                      <img src="imgs/Accordion-fold.svg" class="figure-img img-fluid rounded imgsf" alt="蛇腹折り（アコーディオン折り）">
                       <figcaption class="figure-caption">蛇腹折り（アコーディオン折り）</figcaption>
                     </figure>
                     <figure class="figure text-center">
-                      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Blintz-fold.svg/120px-Blintz-fold.svg.png" class="figure-img img-fluid rounded" alt="ざぶとん折り">
+                      <img src="imgs/Blintz-fold.svg" class="figure-img img-fluid rounded imgsf" alt="ざぶとん折り">
                       <figcaption class="figure-caption">ざぶとん折り</figcaption>
                     </figure>
                   </div>
                   <hr>
                   <div class="p-2">
-                    <h3>複合的な折り方</h3>
+                    <h4>複合的な折り方</h4>
                     <p>基本的な折り方を複合させた折り方として、名前がつけられている折り方について説明する。</p>
                     <ul>
                       <li><b>巻き折り</b> - 谷折りを繰り返すことにより、内側へ巻いていく折り方</li>
+                      <li><b>段折り</b> - 山折りと谷折りを交互に行うことによって、折り返す折り方</li>
+                      <li><b>引き寄せ折り</b> (swivel fold) - 段折りの折り目を弧を描くように変えて、立体的に膨らむようにする折り方。</li>
+                      <li><b>かぶせ折り</b> (reverse fold) - 二枚に重なっているところを開き、先端を裏返して、折り目を内側にしてかぶせるように折る。下の中割り折りとシルエットは同じになる。</li>
+                      <li><b>中割り折り</b> - 二枚に重なっている場所を開き、内側へ向かって折ったあと再び閉じる折り方。折鶴の頭の部分などに利用される。</li>
+                      <li><b>つまみ折り</b> (rabbit ear fold) - 該当部分を折り、そこから飛び出したところを畳む折り方。</li>
+                      <li><b>花弁折り</b> - 正方基本形の開いているところから紙を広げ、菱形のような形に変えて折る。折り鶴の途中にも使われる。</li>
+                      <li>沈め折り</li>
+                        <ul>
+                          <li>開いた沈め折り(open sink) - 該当部分の、山折りは谷折りに、谷折りは山折りに変え、内側にへこませる折り方。</li>
+                          <li>閉じた沈め折り(closed sink) - 該当部分を押し込むようにしてへこませる折り方。完成形は該当部分に穴が空いたようにへこみ、開いた沈め折りとはやや異なる。</li>
+                        </ul>
+                      <li>ミウラ折り - 緩い斜めの折り目に沿って山折りと谷折りを繰り返す折り方。該当項目を参照。</li>
+                      <li>平織り</li>
+                        <ul>
+                          <li>ぜんまい折り</li>
+                        </ul>
                     </ul>
-                    <figure class="figure text-center">
-                      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Origami_Valley-fold.svg/120px-Origami_Valley-fold.svg.png" class="figure-img img-fluid rounded" alt="谷折り">
-                      <figcaption class="figure-caption">谷折り</figcaption>
-                    </figure>
-                    <figure class="figure text-center">
-                      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Mountain-fold.svg/120px-Mountain-fold.svg.png" class="figure-img img-fluid rounded" alt="山折り">
-                      <figcaption class="figure-caption">山折り</figcaption>
-                    </figure>
-                    <figure class="figure text-center">
-                      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Accordion-fold.svg/120px-Accordion-fold.svg.png" class="figure-img img-fluid rounded" alt="蛇腹折り（アコーディオン折り）">
-                      <figcaption class="figure-caption">蛇腹折り（アコーディオン折り）</figcaption>
-                    </figure>
-                    <figure class="figure text-center">
-                      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Blintz-fold.svg/120px-Blintz-fold.svg.png" class="figure-img img-fluid rounded" alt="ざぶとん折り">
-                      <figcaption class="figure-caption">ざぶとん折り</figcaption>
-                    </figure>
+                    <div class="row row-cols-4 align-items-end">
+                      <div class="col">
+                        <figure class="figure text-center">
+                          <img src="imgs/Inside-reverse-fold.svg" class="figure-img img-fluid rounded imgsf" alt="中割り折り">
+                          <figcaption class="figure-caption">中割り折り</figcaption>
+                        </figure>
+                      </div>
+                      <div class="col">
+                        <figure class="figure text-center">
+                          <img src="imgs/Outside-reverse-fold.svg" class="figure-img img-fluid rounded imgsf" alt="かぶせ折り">
+                          <figcaption class="figure-caption">かぶせ折り</figcaption>
+                        </figure>
+                      </div>
+                      <div class="col">
+                        <figure class="figure text-center">
+                          <img src="imgs/Rabbit-ear-fold.svg" class="figure-img img-fluid rounded imgsf" alt="つまみ折り">
+                          <figcaption class="figure-caption">つまみ折り</figcaption>
+                        </figure>
+                      </div>
+                      <div class="col">
+                        <figure class="figure text-center">
+                          <img src="imgs/Petal-fold.svg" class="figure-img img-fluid rounded imgsf" alt="花弁折り">
+                          <figcaption class="figure-caption">花弁折り</figcaption>
+                        </figure>
+                      </div>
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="p-2">
+                    <h4>折り方の約束記号</h4>
+                    <p class="text-center"><b>主な折り紙の記号</b></p>
+                    <div class="row row-cols-2 align-items-end">
+                      <div class="col">
+                        <figure class="figure text-center">
+                          <img src="imgs/Origami_symbol_valley_fold.svg" class="figure-img img-fluid rounded img-thumbnail" alt="谷折り、手前に折る">
+                          <figcaption class="figure-caption">谷折り、手前に折る</figcaption>
+                        </figure>
+                      </div>
+                      <div class="col">
+                        <figure class="figure text-center">
+                          <img src="imgs/Orisymbol_mountain_fold.svg" class="figure-img img-fluid rounded img-thumbnail" alt="山折り、後ろへ折る">
+                          <figcaption class="figure-caption">山折り、後ろへ折る</figcaption>
+                        </figure>
+                      </div>
+                      <div class="col">
+                        <figure class="figure text-center">
+                          <img src="imgs/Orisymbol_fold_and_unfold_valley_and_existing_line.svg" class="figure-img img-fluid rounded img-thumbnail" alt="折り筋をつける（谷折り）">
+                          <figcaption class="figure-caption">折り筋をつける（谷折り）</figcaption>
+                        </figure>
+                      </div>
+                      <div class="col">
+                        <figure class="figure text-center">
+                          <img src="imgs/Orisymbol_fold_and_unfold_mountain.svg" class="figure-img img-fluid rounded img-thumbnail" alt="折り筋をつける（山折り）">
+                          <figcaption class="figure-caption">折り筋をつける（山折り）</figcaption>
+                        </figure>
+                      </div>
+                      <div class="col">
+                        <figure class="figure text-center">
+                          <img src="imgs/Orisymbol_thunderbolt_fold.svg" class="figure-img img-fluid rounded img-thumbnail" alt="段折り">
+                          <figcaption class="figure-caption">段折り</figcaption>
+                        </figure>
+                      </div>
+                      <div class="col">
+                        <figure class="figure text-center">
+                          <img src="imgs/Orisymbol_roll.svg" class="figure-img img-fluid rounded img-thumbnail" alt="巻き折り">
+                          <figcaption class="figure-caption">巻き折り</figcaption>
+                        </figure>
+                      </div>
+                      <div class="col">
+                        <figure class="figure text-center">
+                          <img src="imgs/Orisymbol_double_inside_thunderbolt_fold.svg" class="figure-img img-fluid rounded img-thumbnail" alt="内側に段折り">
+                          <figcaption class="figure-caption">内側に段折り</figcaption>
+                        </figure>
+                      </div>
+                      <div class="col">
+                        <figure class="figure text-center">
+                          <img src="imgs/Orisymbol_double_outside_thunderbolt_fold.svg" class="figure-img img-fluid rounded img-thumbnail" alt="外側に段折り">
+                          <figcaption class="figure-caption">外側に段折り</figcaption>
+                        </figure>
+                      </div>
+                      <div class="col">
+                        <figure class="figure text-center">
+                          <img src="imgs/Orisymbol_turn_over_and_invisible_line.svg" class="figure-img img-fluid rounded img-thumbnail" alt="裏返す">
+                          <figcaption class="figure-caption">裏返す</figcaption>
+                        </figure>
+                      </div>
+                      <div class="col">
+                        <figure class="figure text-center">
+                          <img src="imgs/Orisymbol_rotate.svg" class="figure-img img-fluid rounded img-thumbnail" alt="図の見る位置が変わる">
+                          <figcaption class="figure-caption">図の見る位置が変わる</figcaption>
+                        </figure>
+                      </div>
+                      <div class="col">
+                        <figure class="figure text-center">
+                          <img src="imgs/Orisymbol_open.svg" class="figure-img img-fluid rounded img-thumbnail" alt="膨らませる、開く">
+                          <figcaption class="figure-caption">膨らませる、開く</figcaption>
+                        </figure>
+                      </div>
+                      <div class="col">
+                        <figure class="figure text-center">
+                          <img src="imgs/Orisymbol_pull.svg" class="figure-img img-fluid rounded img-thumbnail" alt="引っ張る、戻す、引き出す">
+                          <figcaption class="figure-caption">引っ張る、戻す、引き出す</figcaption>
+                        </figure>
+                      </div>
+                      <div class="col">
+                        <figure class="figure text-center">
+                          <img src="imgs/Orisymbol_inside_reverse_fold.svg" class="figure-img img-fluid rounded img-thumbnail" alt="中わり折り">
+                          <figcaption class="figure-caption">中わり折り</figcaption>
+                        </figure>
+                      </div>
+                      <div class="col">
+                        <figure class="figure text-center">
+                          <img src="imgs/Orisymbol_outside_reverse_fold.svg" class="figure-img img-fluid rounded img-thumbnail" alt="かぶせ折り">
+                          <figcaption class="figure-caption">かぶせ折り</figcaption>
+                        </figure>
+                      </div>
+                      <div class="col">
+                        <figure class="figure text-center">
+                          <img src="imgs/Orisymbol_repeat_action.svg" class="figure-img img-fluid rounded img-thumbnail" alt="繰り返す">
+                          <figcaption class="figure-caption">繰り返す</figcaption>
+                        </figure>
+                      </div>
+                      <div class="col">
+                        <figure class="figure text-center">
+                          <img src="imgs/Orisymbol_cut.svg" class="figure-img img-fluid rounded img-thumbnail" alt="切る">
+                          <figcaption class="figure-caption">切る</figcaption>
+                        </figure>
+                      </div>
+                      <div class="col">
+                        <figure class="figure text-center">
+                          <img src="imgs/Orisymbol_inflate.svg" class="figure-img img-fluid rounded img-thumbnail" alt="膨らませる、息を吹き込む">
+                          <figcaption class="figure-caption">膨らませる、息を吹き込む</figcaption>
+                        </figure>
+                      </div>
+                      <div class="col">
+                        <figure class="figure text-center">
+                          <img src="imgs/Orisymbol_zoom.svg" class="figure-img img-fluid rounded img-thumbnail" alt="図が大きくなる">
+                          <figcaption class="figure-caption">図が大きくなる</figcaption>
+                        </figure>
+                      </div>
+                      <div class="col">
+                        <figure class="figure text-center">
+                          <img src="imgs/Orisymbol_sink.svg" class="figure-img img-fluid rounded img-thumbnail" alt="押す、押しつぶす、沈め折り">
+                          <figcaption class="figure-caption">押す、押しつぶす、沈め折り</figcaption>
+                        </figure>
+                      </div>
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row justify-content-center">
+                    <a class="text-secondary pb-1" target="_blank" href="https://ja.wikipedia.org/wiki/%E6%8A%98%E3%82%8A%E3%81%AE%E6%8A%80%E6%B3%95"><small>出典: フリー百科事典『ウィキペディア（Wikipedia）』</small></a>
                   </div>
                 </div>
                 <div class="tab-pane fade" id="nav-kiri" role="tabpanel" aria-labelledby="nav-kiri-tab">...</div>
@@ -85,14 +236,13 @@
         </div>
       </div>
       <div class="row justify-content-center">
-        <div class="col-8 bg-dark shadow-xl border border-dark border-top-0 rounded-bottom p-0">
-          <script src="footer.js"></script>
-        </div>
+        <script src="footer.js"></script>
       </div>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     <script src="domcode.js"></script>
+    <script src="javscript.js"></script>
     <ul class="bg-bubbles">
       <li></li>
       <li></li>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" x="0" y="0px" width="930" height="380" viewBox="0 0 930 380">
+<style type="text/css">
+	.st0{fill:#fff;stroke:#000;stroke-width:3;stroke-linejoin:round;}
+	.st1{fill:#F2F2F2;stroke:#000;stroke-width:3;stroke-linejoin:round;}
+</style>
+<polygon class="st0" points="206.4,366.8 9.4,366.8 235.9,108 401.5,108 "/>
+<polygon class="st1" points="473.4,12.9 401.5,108 206.4,366.8 310.1,258.1 "/>
+<polygon class="st0" points="569.4,145 473.4,12.9 310.1,258.1 401.5,369.6 "/>
+<polygon class="st1" points="668.9,10.4 569.4,145 401.5,369.6 506.1,261.1 "/>
+<polygon class="st0" points="760.3,110.4 668.9,10.4 506.1,261.1 600.5,363.6 "/>
+<polygon class="st0" points="920.6,110.9 760.3,110.4 600.5,363.6 770.9,363.6 "/>
+</svg>

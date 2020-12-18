@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" x="0" y="0" width="676" height="470" viewBox="0 0 676 470">
+<style type="text/css">
+	.st0{fill:#fff;stroke:#000;stroke-width:3;stroke-linejoin:round;}
+	.st1{fill:none;stroke:#000;stroke-width:3;}
+	.st2{fill:none;stroke:#000;stroke-width:3;stroke-dasharray:3.0273,5.0456;}
+	.st3{fill:none;stroke:#000;stroke-width:3;stroke-dasharray:2.9583,4.9306;}
+	.st4{fill:none;stroke:#000;stroke-width:3;stroke-linejoin:round;}
+</style>
+<polygon class="st0" points="444.4,17.1 250.9,200.7 650.9,203.6 "/>
+<polygon class="st0" points="19.4,452.1 138,138.6 250.9,200.7 "/>
+<polygon class="st0" points="650.9,203.6 426.6,452.1 19.4,452.1 250.9,200.7 "/>
+<polygon class="st0" points="216.6,271.4 426.6,452.1 19.4,452.1 "/>
+<g>
+	<g>
+		<line class="st1" x1="250.9" y1="200.7" x2="251.7" y2="201.9"/>
+		<line class="st2" x1="254.6" y1="206.1" x2="424.3" y2="448.8"/>
+		<line class="st1" x1="425.7" y1="450.9" x2="426.6" y2="452.1"/>
+	</g>
+</g>
+<g>
+	<g>
+		<line class="st1" x1="510.1" y1="257.1" x2="508.7" y2="257.7"/>
+		<line class="st3" x1="504.1" y1="259.5" x2="300.8" y2="339.3"/>
+		<line class="st1" x1="298.5" y1="340.2" x2="297.1" y2="340.7"/>
+	</g>
+</g>
+<g>
+	<g>
+		<path class="st4" d="M436.6,48.6c-50.5,39.2-90.5,131.6-97,212.1"/>
+		<g>
+			<polygon points="329.2,251.6 340,257 351.3,252.9 338.7,278.6 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<path class="st4" d="M548.3,168c-98.5-2-147.6,71.6-172.3,115.3"/>
+		<g>
+			<polygon points="370.4,270.5 377.8,280 389.8,281.3 367.3,298.9 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<path class="st4" d="M150.1,167.9c80,22.6,111.7,62.8,126.5,87.8"/>
+		<g>
+			<polygon points="262.7,253.8 274.7,252.5 282.1,243 285.1,271.4 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<path class="st4" d="M244.4,295.4c7-4.7,31.2-16.4,61.3,10.9"/>
+		<g>
+			<polygon points="291.7,308.1 303,303.8 307.7,292.6 318,319.3 			"/>
+		</g>
+	</g>
+</g>
+<polygon class="st0" points="560.9,138.6 426.6,452.1 650.9,203.6 "/>
+</svg>

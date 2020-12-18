@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" width="430" height="280" viewBox="0 0 430 280">
+<style type="text/css">
+	.st0{fill:#fff;stroke:#000;stroke-width:3;stroke-linejoin:round;}
+	.st1{fill:#F2F2F2;stroke:#000;stroke-width:3;stroke-linejoin:round;}
+	.st2{fill:none;stroke:#000;stroke-width:3;}
+	.st3{fill:none;stroke:#000;stroke-width:3;stroke-dasharray:3,5;}
+</style>
+<polygon class="st0" points="415.7,176.3 244.7,260.1 139.9,104.8 315.7,27.2 "/>
+<polygon class="st1" points="33.6,248.6 139.9,104.8 188.4,176.7 "/>
+		<path class="st2" d="M185.2,218.6c-14.1,1.4-35.3,0.5-61.7-25.2"/>
+		<polygon points="178.6,211.4 182.6,218.8 180.1,226.8 197.7,217.3 			"/>
+		<path class="st2" d="M322.1,200.7c-0.2,0.5-0.4,0.9-0.6,1.4"/>
+		<path class="st3" d="M319.1,206.4c-7.9,10.7-24.9,15.1-40.4,16.9"/>
+		<path class="st2" d="M276.2,223.5c-0.5,0-1,0.1-1.5,0.1"/>
+		<polygon points="281,214.3 277.6,223.4 281.8,232.1 260.4,224.2 			"/>
+</svg>

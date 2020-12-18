@@ -1,6 +1,6 @@
 document.write(`
   <div class="row justify-content-center fixed-top" id="header">
-    <div class="col-8 navfix">
+    <div class="col-md-8 navfix">
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand pl-2 pt-0 pr-0" href="index.html">
           <img src="imgs/Logo.png" width="40" height="40" class="d-inline-block align-top" alt="" loading="lazy">
@@ -21,7 +21,7 @@ document.write(`
     </div>
   </div>
   <div class="row justify-content-center overlay-fix">
-    <div class="col-8 shadow-xl p-0">
+    <div class="col-sm-8 shadow-xl p-0">
       <img src="imgs/Imgs_0.png" class="img-fluid" alt="Responsive image">
     </div>
   </div>
