@@ -46,7 +46,7 @@
   margin-bottom: 5px;
 }
 .bg-bubbles {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   height: 100%;
@@ -55,7 +55,7 @@
   z-index: -1;
 }
 .bg-bubbles li {
-  position: absolute;
+  position: fixed;
   display: block;
   list-style: none;
   width: 20px;
@@ -171,8 +171,8 @@
             transform: translateY(0);
   }
   100% {
-    -webkit-transform: translateY(calc(-100vh + -100%)) rotate(600deg);
-            transform: translateY(calc(-100vh + -100%)) rotate(600deg);
+    -webkit-transform: translateY(-800px) rotate(600deg);
+            transform: translateY(-800px) rotate(600deg);
   }
 }
 @keyframes square {
@@ -181,7 +181,7 @@
             transform: translateY(0);
   }
   100% {
-    -webkit-transform: translateY(calc(-100vh + -100%)) rotate(600deg);
-            transform: translateY(calc(-100vh + -100%)) rotate(600deg);
+    -webkit-transform: translateY(-800px) rotate(600deg);
+            transform: translateY(-800px) rotate(600deg);
   }
 }
