@@ -61,7 +61,7 @@
   width: 20px;
   height: 20px;
   background-color: rgba(var(--wR), var(--wG), var(--wB), 0.15);
-  bottom: -260px;
+  bottom: -160px;
   -webkit-animation: square 25s infinite;
   animation: square 25s infinite;
   -webkit-transition-timing-function: linear;
