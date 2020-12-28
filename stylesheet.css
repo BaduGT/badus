@@ -171,8 +171,8 @@
             transform: translateY(0);
   }
   100% {
-    -webkit-transform: translateY(-700px) rotate(600deg);
-            transform: translateY(-700px) rotate(600deg);
+    -webkit-transform: translateY(calc(-100vh + -100%)) rotate(600deg);
+            transform: translateY(calc(-100vh + -100%)) rotate(600deg);
   }
 }
 @keyframes square {
@@ -181,7 +181,7 @@
             transform: translateY(0);
   }
   100% {
-    -webkit-transform: translateY(-700px) rotate(600deg);
-            transform: translateY(-700px) rotate(600deg);
+    -webkit-transform: translateY(calc(-100vh + -100%)) rotate(600deg);
+            transform: translateY(calc(-100vh + -100%)) rotate(600deg);
   }
 }
